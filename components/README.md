@@ -9,7 +9,7 @@ with external components and add this to your `.yaml` definition:
 
 ```yaml
 external_components:
-  - source: github://mazzonem/esphome-ipod-click-wheel-component
+  - source: github://mazzonem/esphome-ipod
 ```
 
 ## 2. Components
@@ -42,6 +42,3 @@ external_components:
       on_backward:
         - logger.log: "Press Backward"
 ```
-
-## 3. Local use
-esphome run ipod.yaml --device ipod.local
